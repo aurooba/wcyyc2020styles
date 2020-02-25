@@ -153,6 +153,7 @@ a {
         }
     }
     .wp-block-separator {
+        max-width: $content-w;
         &:before {
             background: url(files/2020/02/separator.png) no-repeat center;
             content: '' !important;
