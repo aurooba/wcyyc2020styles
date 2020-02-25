@@ -6,3 +6,23 @@
     @warn "Unknown `#{$key}` in $colors.";
     @return null;
   }
+
+@each $i in $colours {
+	.colour-#{nth($i, 1)} {
+		color: nth($i, 2);
+        &:visited {
+           color: nth($i, 2); 
+        }
+	}
+	.bg-#{nth($i, 1)} {
+		background-color: nth($i, 2);
+	}
+}
+
+.colour-white {
+    color: #fff;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
