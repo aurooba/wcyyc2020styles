@@ -1,0 +1,154 @@
+@import "vars";
+@import "mixins";
+@import "functions";
+@import "twentynineteen";
+
+
+:root {
+    --base-font-size: 18px;
+    --base-font: 'Quattrocento Sans', sans-serif;
+    @include respond-to(pond) {
+        // --base-font-size: 15px/
+    }
+    @include respond-to(lake) {
+        // --base-font-size: 16px;
+    }
+}
+
+html, body, p, input, a {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: var(--base-font-size);
+}
+
+.wordcamp-post-list.has-layout-grid {
+    align-items: center;
+}
+
+h1 {
+    font-family: macho, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: colour(highlighter);
+}
+
+h2 {
+    font-family: macho, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 1.2;
+    color: colour(highlighter);
+    &:before {
+        display: none;
+    }
+}
+
+h3 {
+    font-family: macho, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 19px;
+    line-height: 1.2;
+    color: colour(highlighter);
+}
+
+h4 {
+    font-family: macho, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: colour(highlighter);
+}
+
+a {
+    transition: 0.5s ease all;
+    color: colour(primary);
+    &:visited {
+        color: colour(primarydark);
+    }
+}
+
+
+
+.entry .entry-content {
+    h1,h2,h3,h4,h5,h6,p,a {
+        max-width: $content-w;
+    }
+    .pad-1 {
+        padding: 1rem;
+    }
+    .pad-2 {
+        padding: 2rem;
+    }
+    .pad-3 {
+        padding: 3rem;
+    }
+    .wp-block-button a {
+        padding: 1rem 1.2rem;
+        border-radius: 0px;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    .wp-block-button.bg-primary a {
+        &:hover {
+            background-color: colour(primarydark);
+        }
+    }
+
+    .wp-block-button.bg-secondary a {
+        color: colour(detail);
+        &:hover {
+            background-color: colour(light);
+        }
+    }
+
+    .plaid-border {
+        &:before {
+            background: url(files/2020/02/plaid-border.png) repeat-x;
+            background-blend-mode: multiply;
+        }
+    }
+    .wp-block-cover {
+        align-items: flex-start;
+        padding: 0;
+        min-height: auto;
+        max-width: $content-w;
+        .wp-block-cover__inner-container {
+            margin: 3rem 0;
+        }
+    }
+    .wp-block-cover.cta-teritary {
+        background-color: colour(tertiary) !important;
+        color: #fff;
+        &:before {
+            background-color: colour(tertiary) !important;
+        }
+        .wp-block-button {
+            @extend .bg-primary;
+        }
+    }
+
+    .wp-block-cover.cta-highlighter {
+        background-color: colour(highlighter) !important;
+        color: #fff;
+        &:before {
+            background-color: colour(highlighter) !important;
+        }
+        h2,h3,h4,h4 {
+            color: colour(secondary);
+        }
+        .wp-block-button {
+            @extend .bg-secondary;
+            a {
+                color: colour(detail);
+            }
+        }
+    }
+
+}
