@@ -73,11 +73,21 @@ a {
     }
 }
 
-h1,h2,h3,h4,h5,h6,p,a {
-    max-width: $content-w;
-}
+
 
 .entry .entry-content {
+    h1,h2,h3,h4,h5,h6,p,a {
+        max-width: $content-w;
+    }
+    .pad-1 {
+        padding: 1rem;
+    }
+    .pad-2 {
+        padding: 2rem;
+    }
+    .pad-3 {
+        padding: 3rem;
+    }
     .wp-block-button a {
         padding: 1rem 1.2rem;
         border-radius: 0px;
