@@ -14,7 +14,7 @@
            color: nth($i, 2); 
         }
 	}
-	.bg-#{nth($i, 1)} {
+	.bg-#{nth($i, 1)} a {
 		background-color: nth($i, 2);
 	}
 }

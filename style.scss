@@ -70,22 +70,24 @@ a {
     }
 }
 
-.wp-block-button a {
-    padding: 1rem 1.2rem;
-    border-radius: 0px;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-
-.wp-block-button.bg-primary a {
-    &:hover {
-        background-color: colour(primarydark);
+.entry .entry-content {
+    .wp-block-button a {
+        padding: 1rem 1.2rem;
+        border-radius: 0px;
+        text-transform: uppercase;
+        color: #ffffff;
     }
-}
 
-.wp-block-button.bg-secondary a {
-    color: colour(detail);
-    &:hover {
-        background-color: colour(light);
+    .wp-block-button.bg-primary a {
+        &:hover {
+            background-color: colour(primarydark);
+        }
+    }
+
+    .wp-block-button.bg-secondary a {
+        color: colour(detail);
+        &:hover {
+            background-color: colour(light);
+        }
     }
 }
