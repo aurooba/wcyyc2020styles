@@ -16,13 +16,17 @@
 	}
 	.bg-#{nth($i, 1)} a {
 		background-color: nth($i, 2);
-	}
+    }
+    
+    .background--#{nth($i, 1)} {
+        background-color: nth($i, 2);
+    }
 }
 
 .colour-white {
     color: #fff;
 }
 
-.bg-white {
+.bg-white a, .background-white {
     background-color: #ffffff;
 }

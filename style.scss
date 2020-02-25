@@ -70,6 +70,10 @@ a {
     }
 }
 
+h1,h2,h3,h4,h5,h6,p,a {
+    max-width: $content-w;
+}
+
 .entry .entry-content {
     .wp-block-button a {
         padding: 1rem 1.2rem;
@@ -89,5 +93,10 @@ a {
         &:hover {
             background-color: colour(light);
         }
+    }
+}
+.plaid-border {
+    &:before {
+        background-image: url(imgs/1x/plaid-border.png) repeat-x;
     }
 }
