@@ -1,6 +1,7 @@
 @import "vars";
 @import "mixins";
 @import "functions";
+@import "twentynineteen";
 
 
 :root {
@@ -103,20 +104,32 @@ h1,h2,h3,h4,h5,h6,p,a {
             background-blend-mode: multiply;
         }
     }
-
-    .wp-block-cover.cta-teritary {
+    .wp-block-cover {
+        align-items: flex-start;
         padding: 0;
+        min-height: auto;
+        max-width: $content-w;
+        .wp-block-cover__inner-container {
+            margin-top: 3rem 0;
+        }
+    }
+    .wp-block-cover.cta-teritary {
         background-color: colour(tertiary) !important;
         color: #fff;
+        &:before {
+            background-color: colour(tertiary) !important;
+        }
         .wp-block-button {
             @extend .bg-primary;
         }
     }
 
     .wp-block-cover.cta-highlighter {
-        padding: 0;
         background-color: colour(highlighter) !important;
         color: #fff;
+        &:before {
+            background-color: colour(highlighter) !important;
+        }
         h2,h3,h4,h4 {
             color: colour(secondary);
         }
