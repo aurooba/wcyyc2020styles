@@ -14,8 +14,8 @@
     }
 }
 
-body, p, input, a {
-    font-family: var(--base-font);
+html, body, p, input, a {
+    font-family: var(--base-font) !important;
     font-size: var(--base-font-size);
 }
 
