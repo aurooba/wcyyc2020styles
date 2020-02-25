@@ -40,7 +40,9 @@ h2 {
     font-size: 22px;
     line-height: 1.2;
     color: colour(highlighter);
-    
+    &:before {
+        display: none;
+    }
 }
 
 h3 {
@@ -97,6 +99,31 @@ h1,h2,h3,h4,h5,h6,p,a {
 }
 .plaid-border {
     &:before {
-        background-image: url(imgs/1x/plaid-border.png) repeat-x;
+        background: url(files/2020/02/plaid-border.png) repeat-x;
+        background-blend-mode: multiply;
+    }
+}
+
+.wp-block-cover.cta-teritary {
+    padding: 0;
+    background-color: colour(tertiary) !important;
+    color: #fff;
+    .wp-block-button {
+        @extend .bg-primary;
+    }
+}
+
+.wp-block-cover.cta-highlighter {
+    padding: 0;
+    background-color: colour(highlighter) !important;
+    color: #fff;
+    h2,h3,h4,h4 {
+        color: colour(secondary);
+    }
+    .wp-block-button {
+        @extend .bg-secondary;
+        a {
+            color: colour(detail);
+        }
     }
 }
