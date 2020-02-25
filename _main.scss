@@ -68,11 +68,11 @@ h4 {
 a {
     transition: 0.5s ease all;
     color: colour(primary);
+    // font-weight: bold;
     &:visited {
         color: colour(primarydark);
     }
 }
-
 
 
 .entry .entry-content {
@@ -89,10 +89,12 @@ a {
         padding: 3rem;
     }
     .wp-block-button a {
-        padding: 1rem 1.2rem;
+        padding: 1rem 1.5rem;
         border-radius: 0px;
         text-transform: uppercase;
         color: #ffffff;
+        font-weight: bold;
+        text-decoration: none;
     }
 
     .wp-block-button.bg-primary a {
@@ -150,5 +152,21 @@ a {
             }
         }
     }
+    .wp-block-separator {
+        &:before {
+            background: url(files/2020/02/separator.png) no-repeat center;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 }
