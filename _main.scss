@@ -85,12 +85,21 @@ a {
         // align-items: center;
         // height: 64px;
         // justify-content: flex-end;
+        .site-logo .custom-logo-link {
+            margin: 1rem auto;
+            @include respond-to(pond) {
+                margin: auto;
+             }
+        }
     }
     .site-title, .site-description {
         display: none;
     }
     #site-navigation {
-        text-align: right;
+        text-align: center;
+        @include respond-to(pond) {
+            text-align: right;
+         }
         .menu-main-container {
             display: inline-block;
             margin-top: 22px;
