@@ -94,6 +94,9 @@ a {
     }
     .site-title {
         margin: 0;
+        @include respond-to(pond) {
+            width: 50%;
+         }
     }
     .site-title a {
         font-family: museo-slab, serif;
@@ -110,7 +113,9 @@ a {
     }
     #site-navigation {
         text-align: center;
+        
         @include respond-to(pond) {
+            width: 50%;
             text-align: right;
          }
         .menu-main-container {
