@@ -145,9 +145,18 @@ a {
     background-color: colour(primary);
     background-size: auto 20px;
     min-height: auto;
+    padding-bottom: 0;
+    .site-branding-container {
+        padding-bottom: 3rem;
+    }
     .custom-logo-link {
         background: transparent;
     }
+    .site-featured-image {
+        padding: 3rem 1rem 1rem 1rem;
+        background: #fff;
+    }
+    
 }
 
 .entry, .entry .entry-content {

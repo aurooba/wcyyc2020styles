@@ -2126,7 +2126,7 @@ body.page .main-navigation {
   /* Need relative positioning to properly align layers. */
   position: relative;
   /* Add text shadow to text, to increase readability. */
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+  // text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
   /* Set white text color when featured image is set. */
   /* add focus state to social media icons */
   /* Entry header */
@@ -2154,7 +2154,7 @@ body.page .main-navigation {
 .site-header.featured-image .social-navigation li,
 .site-header.featured-image .entry-meta,
 .site-header.featured-image .entry-title {
-  color: #fff;
+  // color: #fff;
 }
 
 .site-header.featured-image .main-navigation a,
