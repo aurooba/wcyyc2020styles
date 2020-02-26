@@ -81,6 +81,9 @@ a {
     background-color: colour(primary);
     background-size: auto 20px;
     padding: 0;
+    .site-branding-container {
+        padding-top: 3rem;
+    }
     .site-branding {
         display: flex;
         align-items: baseline;
