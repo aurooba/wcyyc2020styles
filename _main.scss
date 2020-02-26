@@ -76,14 +76,10 @@ a {
 
 .site-header {
     background-color: colour(primary);
-    &:before {
-        background: url(files/2020/02/plaid-border.png) repeat-x;
-        background-blend-mode: multiply;
-        background-color: colour(primary);
-        width: 100%;
-        height: 50px;
-        display: block;
-    }
+    background: url(files/2020/02/plaid-border.png) repeat-x;
+    background-blend-mode: multiply;
+    background-color: colour(primary);
+
     .site-branding {
         display: flex;
         align-items: center;
@@ -136,10 +132,9 @@ a {
     }
 
     .plaid-border {
-        &:before {
-            background: url(files/2020/02/plaid-border.png) repeat-x;
-            background-blend-mode: multiply;
-        }
+        background-image: url(files/2020/02/plaid-border.png);
+        background-repeat:  repeat-x;
+        background-blend-mode: multiply;
     }
     .wp-block-cover {
         align-items: flex-start;
