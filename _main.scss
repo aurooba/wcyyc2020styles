@@ -135,6 +135,8 @@ a {
         background-image: url(files/2020/02/plaid-border.png);
         background-repeat:  repeat-x;
         background-blend-mode: multiply;
+        background-size: auto;
+        background-position: top;
     }
     .wp-block-cover {
         align-items: flex-start;
