@@ -73,7 +73,14 @@ a {
         color: colour(primarydark);
     }
 }
-
+.site-header.featured-image {
+    background-color: colour(primary);
+    background-image: url(files/2020/02/pattern.png);
+    background-repeat: repeat-x;
+    background-blend-mode: multiply;
+    background-color: colour(primary);
+    background-size: auto 20px;  
+}
 .site-header {
     background-color: colour(primary);
     background-image: url(files/2020/02/pattern.png);
@@ -111,6 +118,9 @@ a {
     }
     .site-logo .custom-logo-link {
         border-radius: 0px;
+    }
+    .featured-image .custom-logo-link {
+        background: transparent;
     }
     #site-navigation {
         text-align: center;
