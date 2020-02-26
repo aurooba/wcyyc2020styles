@@ -74,6 +74,28 @@ a {
     }
 }
 
+#masthead {
+    background-color: colour(primary);
+    &:before {
+        background: url(files/2020/02/plaid-border.png) repeat-x;
+        background-blend-mode: multiply;
+        background-color: colour(primary);
+    }
+    .site-branding {
+        display: flex;
+        align-items: center;
+        height: 64px;
+        justify-content: flex-end;
+    }
+    .site-title, .site-description {
+        display: none;
+    }
+    #site-navigation {
+        ul.main-menu > li > a {
+            color: #fff;
+        }
+    }
+}
 
 .entry .entry-content {
     h1,h2,h3,h4,h5,h6,p,a {
