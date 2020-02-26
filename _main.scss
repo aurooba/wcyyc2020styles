@@ -93,8 +93,18 @@ a {
              }
         }
     }
-    .site-title, .site-description {
+    .site-title {
+        font-family: museo-slab, serif;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 35px;
+        padding-top: 50%;
+    }
+    .site-description {
         display: none;
+    }
+    .site-logo .custom-logo-link {
+        border-radius: 0px;
     }
     #site-navigation {
         text-align: center;
