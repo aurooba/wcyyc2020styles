@@ -97,6 +97,11 @@ a {
         }
         ul.main-menu > li > a {
             color: #fff;
+            border-bottom: 1px solid transparent;
+            transition: 0.5s ease all;
+            &:hover {
+                border-bottom: 1px solid #fff;
+            }
         }
     }
 }
