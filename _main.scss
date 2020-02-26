@@ -76,7 +76,8 @@ a {
 
 .site-header {
     background-color: colour(primary);
-    background: url(files/2020/02/pattern.png) repeat-x;
+    background-image: url(files/2020/02/pattern.png);
+    background-repeat: repeat-x;
     background-blend-mode: multiply;
     background-color: colour(primary);
     background-size: auto 20px;
@@ -132,7 +133,7 @@ a {
         }
         .main-menu-more .svg-icon {
             path:nth-child(2) {
-                fill: #fff;
+                fill: #ffffff;
             }
         }
     }
