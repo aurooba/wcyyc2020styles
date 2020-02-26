@@ -96,7 +96,7 @@ a {
     .site-title {
         margin: 0;
         @include respond-to(pond) {
-            width: 50%;
+            width: 65%;
          }
     }
     .site-title a {
@@ -116,7 +116,7 @@ a {
         text-align: center;
         
         @include respond-to(pond) {
-            width: 50%;
+            width: 35%;
             text-align: right;
          }
         .menu-main-container {
@@ -193,9 +193,7 @@ a {
     .wp-block-cover.cta-teritary {
         background-color: colour(tertiary) !important;
         color: #fff;
-        &:before {
-            background-color: colour(tertiary) !important;
-        }
+        background-blend-mode: color-burn;
         .wp-block-button {
             @extend .bg-primary;
         }
