@@ -1122,11 +1122,11 @@ body.page .main-navigation {
   margin-right: 0.125rem;
 }
 
-// .main-navigation .main-menu > li.menu-item-has-children > a:after,
-// .main-navigation .main-menu > li.menu-item-has-children .menu-item-has-children > a:after {
-//   content: "";
-//   display: none;
-// }
+.main-navigation .main-menu > li.menu-item-has-children > a:after,
+.main-navigation .main-menu > li.menu-item-has-children .menu-item-has-children > a:after {
+  content: "";
+  display: none;
+}
 
 .main-navigation .main-menu > li.menu-item-has-children .submenu-expand {
   display: inline-block;
