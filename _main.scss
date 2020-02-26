@@ -98,6 +98,7 @@ a {
         }
     }
     .site-title {
+        // stacked words on mobile, slightly smaller.
         margin: 0;
         @include respond-to(pond) {
             width: 65%;
