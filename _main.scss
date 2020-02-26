@@ -90,6 +90,10 @@ a {
         display: none;
     }
     #site-navigation {
+        .menu-main-container {
+            display: inline-block;
+            margin-top: 22px;
+        }
         ul.main-menu > li > a {
             color: #fff;
         }
