@@ -92,12 +92,15 @@ a {
              }
         }
     }
+    .site-title {
+        margin: 0;
+    }
     .site-title a {
         font-family: museo-slab, serif;
         text-transform: uppercase;
         color: #fff;
         font-size: 35px;
-        margin: 0;
+        
     }
     .site-description {
         display: none;
