@@ -100,11 +100,13 @@ a {
     .site-title {
         // stacked words on mobile, slightly smaller.
         margin: 0;
+        margin-top: -6px;
+        display: block;
+        margin-left: -15px;
         @include respond-to(pond) {
             width: 65%;
-            line-height: 0;
-            margin-top: 14px;
-            display: block;
+            
+            
          }
     }
     .site-title a {
