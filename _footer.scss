@@ -1,4 +1,9 @@
+#colophone {
+    border-top: 2px solid colour(detail);
+    padding-top: 2rem;
+}
 #colophon .widget-column, .footer-widget-1 {
+    border-top: 3px solid colour(primarydark);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 2rem;
