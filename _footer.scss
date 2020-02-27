@@ -1,9 +1,15 @@
 #colophon .widget-column, .footer-widget-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 2rem;
     .widget-column .widget {
         margin: 0;
+        width: 100%;
+        h2 {
+            margin-top: 0;
+        }
+    }
+    .widget_media_image {
         width: 100%;
     }
 
