@@ -123,6 +123,11 @@ html, body, p, input, a {
 
 
 }
+.home {
+    .wp-block-columns {
+        max-width: 1200px;
+    }
+}
 
 @import "sponsor";
 @import "footer";
