@@ -129,5 +129,9 @@ html, body, p, input, a {
     }
 }
 
+.max-250 {
+    max-height: 250px;
+}
+
 @import "sponsor";
 @import "footer";
