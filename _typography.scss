@@ -1,0 +1,49 @@
+h1 {
+    font-family: macho, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: colour(highlighter);
+}
+
+h2 {
+    font-family: macho, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 1.2;
+    color: colour(highlighter);
+    &:before {
+        display: none;
+    }
+}
+
+h3 {
+    font-family: macho, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 19px;
+    line-height: 1.2;
+    color: colour(highlighter);
+}
+
+h4 {
+    font-family: macho, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: colour(highlighter);
+}
+
+a {
+    transition: 0.5s ease all;
+    color: colour(primary);
+    // font-weight: bold;
+    &:visited {
+        color: colour(primarydark);
+    }
+}
