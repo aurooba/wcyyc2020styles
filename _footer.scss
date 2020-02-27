@@ -5,9 +5,9 @@
     .widget-column .widget {
         margin: 0;
         width: 100%;
-        h2 {
-            margin-top: 0;
-        }
+    }
+    h2.widget-title {
+        margin-top: 0;
     }
     .widget_media_image {
         width: 100%;
