@@ -1,23 +1,23 @@
 .single-wcb_sponsor {
     .site-header {
         margin-bottom: 0;
-    }
-    .site-featured-image {
-        .post-thumbnail {
-            img {
-                max-width: 600px;
-                width: 100%;
+    
+        .site-featured-image {
+            .post-thumbnail {
+                img {
+                    max-width: 600px;
+                    width: 100%;
+                }
+            }
+            .entry-header {
+                margin-top: 0;
+                @include respond-to(pond) {
+                    margin-left: calc(10% + 47px);
+                    margin-right: calc(10% + 47px);
+                }
             }
         }
-        .entry-header {
-            margin-top: 0;
-            @include respond-to(pond) {
-                margin-left: calc(10% + 47px);
-                margin-right: calc(10% + 47px);
-            }
-        }
+
     }
-
-
 
 }
