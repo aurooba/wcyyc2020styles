@@ -1,8 +1,10 @@
-.footer-widget-1 {
+#colophon .widget-column, .footer-widget-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
-    .widget {
+    .widget-column .widget {
         margin: 0;
+        width: 100%;
     }
+
 }

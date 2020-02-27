@@ -3314,8 +3314,8 @@ body.page .main-navigation {
 
 @media only screen and (min-width: 1168px) {
   #colophon .widget-column .widget {
-    margin-right: calc(3 * 1rem);
-    width: calc(50% - (3 * 1rem));
+    // margin-right: calc(3 * 1rem);
+    // width: calc(50% - (3 * 1rem));
   }
 }
 
@@ -3339,7 +3339,7 @@ body.page .main-navigation {
 
 /* Widgets */
 .widget {
-  margin: 0 0 1rem;
+  // margin: 0 0 1rem;
   /* Make sure select elements fit in widgets. */
 }
 
