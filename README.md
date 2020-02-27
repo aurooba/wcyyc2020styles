@@ -6,8 +6,8 @@ To compile run the following command in Terminal:
 sass --watch .:. --style compressed
 ```
 
-[ ] Add separator style on top of page titles
+- [ ] Add separator style on top of page titles
 
-[x] Website Header
+- [x] Website Header
 
-[ ] columns touch in mobile
+- [ ] columns touch in mobile
