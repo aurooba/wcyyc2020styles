@@ -166,7 +166,7 @@ a {
         background: #fff;
         .post-thumbnail {
             @include respond-to(pond) {
-                margin-left: calc(10% + 60px);
+                margin-left: calc(10% + 47px);
              }
             
         }
