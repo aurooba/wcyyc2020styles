@@ -1,0 +1,25 @@
+.single-post {
+    .site-featured-image {
+        padding-top: 0;
+        padding-right: 0;
+        padding-left: 0;
+        @include respond-to(pond) { 
+            padding: 0;
+        }
+        .post-thumbnail {
+            padding: 0;
+            @include respond-to(pond) {
+                margin: 0 10%;
+                padding: 0 60px;
+             }
+
+        }
+        .entry-header {
+            padding: 0 1rem;
+            @include respond-to(pond) {
+                margin: 0 10%;
+                padding: 0 60px;
+             }
+        }
+    }
+}
